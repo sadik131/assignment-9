@@ -26,7 +26,7 @@ const Home = () => {
                 <div>
                     {
                         data.map(user =><Card key={user.id}
-                            user={user}
+                            user={user.slice(0,2)}
                         ></Card>)
                     }
                 </div>
