@@ -9,9 +9,10 @@ const Header = () => {
             </div>
             <div className='p-4 text-2xl flex'>
                 <CustomLink className='m-4' to="/">Home</CustomLink>
-                <CustomLink className='m-4' to="/reviews">Reviews</CustomLink>
-                <CustomLink className='m-4' to="/dashbord">Dashbord</CustomLink>
-                <CustomLink className='m-4' to="/blog">Blog</CustomLink>
+                
+                <CustomLink className='m-4' to="/Ratting">Ratting</CustomLink>
+                <CustomLink  className='m-4' to="/dashbord">Dashbord</CustomLink>
+                <CustomLink className='m-4' to="/blog">blog</CustomLink>
                 <CustomLink className='m-4' to="/about">About</CustomLink>
             </div>
         </div>

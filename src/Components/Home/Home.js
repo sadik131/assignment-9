@@ -22,14 +22,15 @@ const Home = () => {
             </div>
             {/* customer reveq */}
             <div>
-                <h1 className='text-4xl font-medium'>Customer revew</h1>
-                <div>
+                <h1 className='text-4xl font-medium text-center'>Customer revew</h1>
+                <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9'>
                     {
-                        data.map(user =><Card key={user.id}
-                            user={user.slice(0,2)}
+                        data.slice(0,3).map(user =><Card key={user.id}
+                            user={user}
                         ></Card>)
                     }
                 </div>
+                <button className='flex items-center bg-blue-300 rounded-xl py-2 px-10'>See all reviews</button>
             </div>
         </div>
     );
